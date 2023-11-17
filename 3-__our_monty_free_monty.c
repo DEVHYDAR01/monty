@@ -12,13 +12,13 @@ int run_monty(FILE *script_fd);
  */
 void __our_monty_free_tokens(void)
 {
-	size_t i = 0;
+	size_t k = 0;
 
 	if (op_toks == NULL)
 		return;
 
-	for (i = 0; op_toks[i]; i++)
-		free(op_toks[i]);
+	for (k = 0; op_toks[k]; k++)
+		free(op_toks[k]);
 
 	free(op_toks);
 }
@@ -31,11 +31,11 @@ void __our_monty_free_tokens(void)
  */
 unsigned int __our_monty_token_arr_len(void)
 {
-	unsigned int toks_len = 0;
+	unsigned int tokss_len = 0;
 
-	while (op_toks[toks_len])
-		toks_len++;
-	return (toks_len);
+	while (op_toks[tokss_len])
+		tokss_len++;
+	return (tokss_len);
 }
 
 /**
