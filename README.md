@@ -42,3 +42,13 @@ Monty 0.98 is a scripting language that is first compiled into Monty byte codes 
   - usage: rotl
 - op_rotr - rotates the stack to the bottom. The last element of the stack becomes the top element of the stack
   - usage: rotr
+
+# Authors
+
+- DEVHYDAR - [Github](http://github.com/DEVHYDAR)
+- FAVour idowu - [Github](https://github.com/Favouridowu02)
+
+## Version 0.98
+- Released version 0.98
+- All code is kinda aunty betty compliant
+- The no manual page is present for the project
