@@ -51,4 +51,4 @@ Monty 0.98 is a scripting language that is first compiled into Monty byte codes 
 ## Version 0.98
 - Released version 0.98
 - All code is kinda aunty betty compliant
-- The no manual page is present for the project
+- There is no manual page present for the project
